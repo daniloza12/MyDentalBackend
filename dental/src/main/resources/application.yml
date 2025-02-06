@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  #  application:
+  #    name: my dental
+  # MySQL
+  jpa:
+    show-sql: true
+    hibernate:
+#      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_my_dental?createDatabaseIfNotExist=true&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin123
+
+# Configuracion cuenta correo
+correo:
+  email: daniloza3107@gmail.com
+  password: egrwoesofvdthehu
